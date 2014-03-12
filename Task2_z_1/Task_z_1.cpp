@@ -7,7 +7,6 @@
 *Copyright 2014 by Roman Bojko
 */
 #include <iostream>
-#include <stdio.h>
 using namespace std;
 const int N=30;
 struct Book {
@@ -38,7 +37,7 @@ void filterList(Book* p,int n)
 
         }
 };
-int main(int argc, char* argv[])
+int main()
 {
         Book b[N];
         int n,buf;
